@@ -6,6 +6,30 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		AC8AA73C2E434E4300FF7685 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8AA7362E434B6500FF7685 /* FeedView.swift */; };
+		AC8AA73D2E434E5300FF7685 /* FeedItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8AA73B2E434C8800FF7685 /* FeedItemCell.swift */; };
+		AC8AA73E2E434E5B00FF7685 /* NewPostsBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8AA7372E434B9900FF7685 /* NewPostsBanner.swift */; };
+		AC8AA73F2E434E6400FF7685 /* FeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8AA7352E434A8C00FF7685 /* FeedViewModel.swift */; };
+		AC8AA7402E434E6900FF7685 /* RealTimeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8AA7322E4349A200FF7685 /* RealTimeService.swift */; };
+		AC8AA7412E434E7000FF7685 /* MockRealTimeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8AA7312E43494800FF7685 /* MockRealTimeService.swift */; };
+		AC8AA7422E434E7800FF7685 /* UserDefaultsCacheService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8AA7302E43491A00FF7685 /* UserDefaultsCacheService.swift */; };
+		AC8AA7432E434E7D00FF7685 /* CacheService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8AA72F2E4348D300FF7685 /* CacheService.swift */; };
+		AC8AA7442E434E8500FF7685 /* MockNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8AA72E2E4334DE00FF7685 /* MockNetworkService.swift */; };
+		AC8AA7452E434E8A00FF7685 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8AA72D2E43349E00FF7685 /* NetworkError.swift */; };
+		AC8AA7462E434E9000FF7685 /* FeedItemViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8AA72C2E43342D00FF7685 /* FeedItemViewProtocol.swift */; };
+		AC8AA7472E434E9500FF7685 /* RealTimeServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8AA72B2E43340500FF7685 /* RealTimeServiceProtocol.swift */; };
+		AC8AA7482E434E9F00FF7685 /* CacheServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8AA72A2E4333B900FF7685 /* CacheServiceProtocol.swift */; };
+		AC8AA7492E434EA600FF7685 /* NetworkServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8AA7292E43339C00FF7685 /* NetworkServiceProtocol.swift */; };
+		AC8AA74A2E434EAB00FF7685 /* FeedState.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8AA7282E43335800FF7685 /* FeedState.swift */; };
+		AC8AA74B2E434EB000FF7685 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8AA7272E43333900FF7685 /* User.swift */; };
+		AC8AA74C2E434EB700FF7685 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8AA7262E4332BC00FF7685 /* Post.swift */; };
+		AC8AA74D2E43BA0100FF7685 /* MockDataGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8AA7332E4349C900FF7685 /* MockDataGenerator.swift */; };
+		AC8AA74F2E43BDC400FF7685 /* EmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8AA73A2E434C4900FF7685 /* EmptyStateView.swift */; };
+		AC8AA7502E43BDCC00FF7685 /* Errorview.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8AA7392E434C0800FF7685 /* Errorview.swift */; };
+		AC8AA7512E43BDD100FF7685 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8AA7382E434BED00FF7685 /* LoadingView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		AC8AA6F82E432EBD00FF7685 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +51,27 @@
 		AC8AA6EA2E432EBB00FF7685 /* SocialFeedApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialFeedApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC8AA6F72E432EBD00FF7685 /* SocialFeedAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SocialFeedAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC8AA7012E432EBD00FF7685 /* SocialFeedAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SocialFeedAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC8AA7262E4332BC00FF7685 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		AC8AA7272E43333900FF7685 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		AC8AA7282E43335800FF7685 /* FeedState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedState.swift; sourceTree = "<group>"; };
+		AC8AA7292E43339C00FF7685 /* NetworkServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServiceProtocol.swift; sourceTree = "<group>"; };
+		AC8AA72A2E4333B900FF7685 /* CacheServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheServiceProtocol.swift; sourceTree = "<group>"; };
+		AC8AA72B2E43340500FF7685 /* RealTimeServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealTimeServiceProtocol.swift; sourceTree = "<group>"; };
+		AC8AA72C2E43342D00FF7685 /* FeedItemViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItemViewProtocol.swift; sourceTree = "<group>"; };
+		AC8AA72D2E43349E00FF7685 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		AC8AA72E2E4334DE00FF7685 /* MockNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockNetworkService.swift; sourceTree = "<group>"; };
+		AC8AA72F2E4348D300FF7685 /* CacheService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheService.swift; sourceTree = "<group>"; };
+		AC8AA7302E43491A00FF7685 /* UserDefaultsCacheService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsCacheService.swift; sourceTree = "<group>"; };
+		AC8AA7312E43494800FF7685 /* MockRealTimeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockRealTimeService.swift; sourceTree = "<group>"; };
+		AC8AA7322E4349A200FF7685 /* RealTimeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealTimeService.swift; sourceTree = "<group>"; };
+		AC8AA7332E4349C900FF7685 /* MockDataGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockDataGenerator.swift; sourceTree = "<group>"; };
+		AC8AA7352E434A8C00FF7685 /* FeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewModel.swift; sourceTree = "<group>"; };
+		AC8AA7362E434B6500FF7685 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		AC8AA7372E434B9900FF7685 /* NewPostsBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPostsBanner.swift; sourceTree = "<group>"; };
+		AC8AA7382E434BED00FF7685 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		AC8AA7392E434C0800FF7685 /* Errorview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Errorview.swift; sourceTree = "<group>"; };
+		AC8AA73A2E434C4900FF7685 /* EmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyStateView.swift; sourceTree = "<group>"; };
+		AC8AA73B2E434C8800FF7685 /* FeedItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItemCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +120,16 @@
 		AC8AA6E12E432EBB00FF7685 = {
 			isa = PBXGroup;
 			children = (
+				AC8AA7252E4331AE00FF7685 /* Resources */,
+				AC8AA7242E43318700FF7685 /* Utilities */,
+				AC8AA7232E43316500FF7685 /* Extensions */,
+				AC8AA7212E43313D00FF7685 /* Plugin System */,
+				AC8AA71C2E4330C000FF7685 /* Views */,
+				AC8AA71B2E4330AA00FF7685 /* ViewModels */,
+				AC8AA7172E43301300FF7685 /* Services */,
+				AC8AA7162E432FDA00FF7685 /* Protocols */,
+				AC8AA7152E432FAE00FF7685 /* Models */,
+				AC8AA7142E432F6E00FF7685 /* App */,
 				AC8AA6EC2E432EBB00FF7685 /* SocialFeedApp */,
 				AC8AA6FA2E432EBD00FF7685 /* SocialFeedAppTests */,
 				AC8AA7042E432EBD00FF7685 /* SocialFeedAppUITests */,
@@ -90,6 +145,161 @@
 				AC8AA7012E432EBD00FF7685 /* SocialFeedAppUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		AC8AA7142E432F6E00FF7685 /* App */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		AC8AA7152E432FAE00FF7685 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AC8AA7282E43335800FF7685 /* FeedState.swift */,
+				AC8AA7272E43333900FF7685 /* User.swift */,
+				AC8AA7262E4332BC00FF7685 /* Post.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AC8AA7162E432FDA00FF7685 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				AC8AA72C2E43342D00FF7685 /* FeedItemViewProtocol.swift */,
+				AC8AA72B2E43340500FF7685 /* RealTimeServiceProtocol.swift */,
+				AC8AA72A2E4333B900FF7685 /* CacheServiceProtocol.swift */,
+				AC8AA7292E43339C00FF7685 /* NetworkServiceProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		AC8AA7172E43301300FF7685 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				AC8AA71A2E43307500FF7685 /* RealTime */,
+				AC8AA7192E43305E00FF7685 /* Cache */,
+				AC8AA7182E43304B00FF7685 /* Network */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		AC8AA7182E43304B00FF7685 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				AC8AA72E2E4334DE00FF7685 /* MockNetworkService.swift */,
+				AC8AA72D2E43349E00FF7685 /* NetworkError.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		AC8AA7192E43305E00FF7685 /* Cache */ = {
+			isa = PBXGroup;
+			children = (
+				AC8AA7302E43491A00FF7685 /* UserDefaultsCacheService.swift */,
+				AC8AA72F2E4348D300FF7685 /* CacheService.swift */,
+			);
+			path = Cache;
+			sourceTree = "<group>";
+		};
+		AC8AA71A2E43307500FF7685 /* RealTime */ = {
+			isa = PBXGroup;
+			children = (
+				AC8AA7322E4349A200FF7685 /* RealTimeService.swift */,
+				AC8AA7312E43494800FF7685 /* MockRealTimeService.swift */,
+			);
+			path = RealTime;
+			sourceTree = "<group>";
+		};
+		AC8AA71B2E4330AA00FF7685 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				AC8AA7352E434A8C00FF7685 /* FeedViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		AC8AA71C2E4330C000FF7685 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AC8AA7202E43312E00FF7685 /* Common */,
+				AC8AA71F2E43310400FF7685 /* PostTypes */,
+				AC8AA71E2E4330E400FF7685 /* PostComponents */,
+				AC8AA71D2E4330CF00FF7685 /* Feed */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AC8AA71D2E4330CF00FF7685 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				AC8AA73B2E434C8800FF7685 /* FeedItemCell.swift */,
+				AC8AA7372E434B9900FF7685 /* NewPostsBanner.swift */,
+				AC8AA7362E434B6500FF7685 /* FeedView.swift */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		AC8AA71E2E4330E400FF7685 /* PostComponents */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = PostComponents;
+			sourceTree = "<group>";
+		};
+		AC8AA71F2E43310400FF7685 /* PostTypes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = PostTypes;
+			sourceTree = "<group>";
+		};
+		AC8AA7202E43312E00FF7685 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				AC8AA73A2E434C4900FF7685 /* EmptyStateView.swift */,
+				AC8AA7392E434C0800FF7685 /* Errorview.swift */,
+				AC8AA7382E434BED00FF7685 /* LoadingView.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		AC8AA7212E43313D00FF7685 /* Plugin System */ = {
+			isa = PBXGroup;
+			children = (
+				AC8AA7222E43315000FF7685 /* Factories */,
+			);
+			path = "Plugin System";
+			sourceTree = "<group>";
+		};
+		AC8AA7222E43315000FF7685 /* Factories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Factories;
+			sourceTree = "<group>";
+		};
+		AC8AA7232E43316500FF7685 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		AC8AA7242E43318700FF7685 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				AC8AA7332E4349C900FF7685 /* MockDataGenerator.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		AC8AA7252E4331AE00FF7685 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,6 +446,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC8AA7422E434E7800FF7685 /* UserDefaultsCacheService.swift in Sources */,
+				AC8AA7402E434E6900FF7685 /* RealTimeService.swift in Sources */,
+				AC8AA73D2E434E5300FF7685 /* FeedItemCell.swift in Sources */,
+				AC8AA7412E434E7000FF7685 /* MockRealTimeService.swift in Sources */,
+				AC8AA7492E434EA600FF7685 /* NetworkServiceProtocol.swift in Sources */,
+				AC8AA7502E43BDCC00FF7685 /* Errorview.swift in Sources */,
+				AC8AA7442E434E8500FF7685 /* MockNetworkService.swift in Sources */,
+				AC8AA74F2E43BDC400FF7685 /* EmptyStateView.swift in Sources */,
+				AC8AA7482E434E9F00FF7685 /* CacheServiceProtocol.swift in Sources */,
+				AC8AA7432E434E7D00FF7685 /* CacheService.swift in Sources */,
+				AC8AA73F2E434E6400FF7685 /* FeedViewModel.swift in Sources */,
+				AC8AA73C2E434E4300FF7685 /* FeedView.swift in Sources */,
+				AC8AA7452E434E8A00FF7685 /* NetworkError.swift in Sources */,
+				AC8AA74A2E434EAB00FF7685 /* FeedState.swift in Sources */,
+				AC8AA7472E434E9500FF7685 /* RealTimeServiceProtocol.swift in Sources */,
+				AC8AA74B2E434EB000FF7685 /* User.swift in Sources */,
+				AC8AA74C2E434EB700FF7685 /* Post.swift in Sources */,
+				AC8AA74D2E43BA0100FF7685 /* MockDataGenerator.swift in Sources */,
+				AC8AA7462E434E9000FF7685 /* FeedItemViewProtocol.swift in Sources */,
+				AC8AA73E2E434E5B00FF7685 /* NewPostsBanner.swift in Sources */,
+				AC8AA7512E43BDD100FF7685 /* LoadingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
